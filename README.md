@@ -1,0 +1,2 @@
+# lisans-bitirme-projesi
+Zararlı android uygulamaları verikümesi üzerinde, her uygulama için kullandığı Java metotlarını Python Androguard kütüphanesi ile çıkarttım. Aynı şekilde AndroManifest.xml dosyasından key-value değerlerini çıkarttım. Elde ettiğim tüm bu verileri CSV. dosyası olarak kayıt edip Python Pandas kütüphanesi ile DataFrame objesine çevirdim. DataFrame objesini LinearRegression, SVM, Neural Network gibi makine öğrenmesi algoritmaları ile eğitip doğruluk oranlarını, FP-FN-TP-TN değerlerini tablo halinde raporladım.
